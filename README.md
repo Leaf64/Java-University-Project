@@ -29,9 +29,10 @@ Remote image editing using spring boot. Image scaling, color change, blur effect
 # Sci-Calculator
 
 Implementation of a scientific calculator with command recognition based on mXparser library.
-Done with Swing.
 
-[!Screenshot](SciCalculator/image.png)
+![Screenshot](SciCalculator/image.png)
+
+Done with Swing.
 
 # SpringBoot + Hibernate  Survey System
 
