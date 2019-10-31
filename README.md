@@ -34,7 +34,7 @@ Implementation of a scientific calculator with command recognition based on mXpa
 
 Done with Swing.
 
-# [SpringBoot + Hibernate  Survey System](/SpringBoot+Hibernate Survey System/)
+# [SpringBoot + Hibernate  Survey System](SpringBoot+Hibernate Survey System)
 
 Basic API connected to the database by Hibernate.
 
