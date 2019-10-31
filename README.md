@@ -1,4 +1,4 @@
-# Basics of Multithreading
+# [Basics of Multithreading](BasicsOfMultithreading)
 
 Program counts primary numbers on thread 1 and shows a picture on thread 2.
 
