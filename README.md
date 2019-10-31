@@ -2,7 +2,7 @@
 
 Program counts primary numbers on thread 1 and shows a picture on thread 2.
 
-# KanbanFX
+# [KanbanFX](KanbanFX)
 
 A Kanban in JavaFX
 
@@ -14,7 +14,7 @@ Features:
   c. Exporting lists to a file in CSV format
   d. Import lists from a CSV file
 
-# Monte Carlo
+# [Monte Carlo](MonteCarlo)
 
 Multi-threaded program calculating the integral of
 
@@ -22,11 +22,11 @@ Multi-threaded program calculating the integral of
 
 and drawing its graph on the screen
 
-# Picture Editor API
+# [Picture Editor API](PictureEditorAPI)
 
 Remote image editing using spring boot. Image scaling, color change, blur effect etc.
 
-# Sci-Calculator
+# [Sci-Calculator](SciCalculator)
 
 Implementation of a scientific calculator with command recognition based on mXparser library.
 
@@ -34,11 +34,11 @@ Implementation of a scientific calculator with command recognition based on mXpa
 
 Done with Swing.
 
-# SpringBoot + Hibernate  Survey System
+# [SpringBoot + Hibernate  Survey System](SpringBoot+Hibernate Survey System)
 
 Basic API connected to the database by Hibernate.
 
-# Subnet Calculator
+# [Subnet Calculator](SubnetCalculator)
 
 Program calculates network class, broadcast addres, mask, first host address, last host address etc.
 
