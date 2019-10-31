@@ -20,7 +20,7 @@ Multi-threaded program calculating the integral of
 
 ![Screenshot](MonteCarlo/image.png)
 
-and drawing her graph on the screen
+and drawing its graph on the screen
 
 # Picture Editor API
 
