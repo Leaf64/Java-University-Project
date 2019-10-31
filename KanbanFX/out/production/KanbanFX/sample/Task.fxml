@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="460.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.TaskController">
+    <center>
+        <TextArea fx:id="description" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="20.0" top="20.0"/>
+            </BorderPane.margin>
+        </TextArea>
+    </center>
+    <top>
+        <GridPane hgap="10.0" vgap="10.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="Title" GridPane.halignment="RIGHT"/>
+                <TextField fx:id="title" GridPane.columnIndex="1"/>
+                <Label text="Priority" GridPane.halignment="RIGHT" GridPane.rowIndex="1"/>
+                <ChoiceBox fx:id="priority" prefHeight="25.0" prefWidth="2000.0" GridPane.columnIndex="1"
+                           GridPane.hgrow="ALWAYS" GridPane.rowIndex="1"/>
+                <Label text="Exp date" GridPane.halignment="RIGHT" GridPane.rowIndex="2"/>
+                <DatePicker fx:id="date" prefHeight="25.0" prefWidth="2000.0" GridPane.columnIndex="1"
+                            GridPane.rowIndex="2"/>
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="20.0" percentWidth="0.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+        </GridPane>
+    </top>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <bottom>
+        <Button mnemonicParsing="false" onAction="#addTask" prefHeight="50.0" prefWidth="186.0" text="Accept"
+                BorderPane.alignment="CENTER"/>
+    </bottom>
+</BorderPane>

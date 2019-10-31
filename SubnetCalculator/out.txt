@@ -1,0 +1,33 @@
+Your IP address is: 192.168.0.106
+Your mask is: 24
+1.
+NETWORK ADDRESS:192.168.0.0
+2.
+NETWORK CLASS:C
+3.
+Your IP address is private
+4.
+DECIMAL MASK:255.255.255.0
+BINARY MASK:11111111.11111111.11111111.00000000
+5.
+DECIMAL BROADCAST ADDRESS: 192.168.0.255
+BINARY BRODCAST ADDRESS: 11000000.10101000.00000000.11111111
+6.
+First host address = 192.168.0.1
+Decimal: 11000000.10101000.00000000.00000001
+7.
+Last host address = 192.168.0.254
+Decimal: 11000000.10101000.00000000.11111110
+24
+Max hosts number: 254
+
+Pinging 192.168.0.106 with 32 bytes of data:
+Reply from 192.168.0.106: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.106: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.106: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.106: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.106:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

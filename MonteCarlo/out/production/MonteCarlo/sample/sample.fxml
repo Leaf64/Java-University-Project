@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0"
+            prefWidth="704.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.Controller">
+    <center>
+        <Canvas fx:id="canvas" height="400.0" width="400.0" BorderPane.alignment="CENTER"/>
+    </center>
+    <bottom>
+        <FlowPane prefHeight="41.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="startButton" mnemonicParsing="false" onAction="#handleRunBtnAction" text="Start"/>
+                <Button fx:id="stopButton" mnemonicParsing="false" onAction="#handleStopBtnAction" text="Stop"/>
+                <TextField fx:id="textField" prefHeight="25.0" prefWidth="57.0"/>
+                <ProgressBar fx:id="progressBar" prefHeight="18.0" prefWidth="173.0" progress="0.0"/>
+                <Label fx:id="label" text="Label"/>
+            </children>
+        </FlowPane>
+    </bottom>
+</BorderPane>
